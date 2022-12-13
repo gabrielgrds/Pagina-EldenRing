@@ -1,0 +1,13 @@
+.lordes__botao {
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 0.7rem;
+    transition: all .1s ease-in-out; /*ease in out faz com que a animação começe e termine devagar*/
+}
+
+.lordes__botao:hover {
+    cursor: pointer;
+    background: #620404;
+}

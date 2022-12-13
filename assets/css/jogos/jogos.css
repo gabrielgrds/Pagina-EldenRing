@@ -1,0 +1,4 @@
+.jogos {
+    display: flex;
+    flex-direction: column;
+}

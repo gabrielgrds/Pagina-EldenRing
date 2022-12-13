@@ -9,22 +9,132 @@
         <link rel="stylesheet" href="./assets/css/normalize.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/style-pagina.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu__item.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu__link.css">
+        <link rel="stylesheet" href="./assets/css//menu/menu__lista.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner__imagem.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner__titulo.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre__descricao.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre__titulo.css">
+        <link rel="stylesheet" href="./assets/css/lordes/lordes.css">
+        <link rel="stylesheet" href="./assets/css/lordes/lordes__botao.css">
+        <link rel="stylesheet" href="./assets/css/lordes/lordes__conteudo.css">
+        <link rel="stylesheet" href="./assets/css/lordes/lordes__descricao.css">
+        <link rel="stylesheet" href="./assets/css/lordes/lordes__imagem.css">
+        <link rel="stylesheet" href="./assets/css/lordes/lordes__titulo.css">
+        <link rel="stylesheet" href="./assets/css/lorde.css">
+        <link rel="stylesheet" href="./assets/css/outrosJogos/outros-jogos.css">
+        <link rel="stylesheet" href="./assets/css/outrosJogos/outros-jogos__descricao.css">
+        <link rel="stylesheet" href="./assets/css/outrosJogos/outros-jogos__titulos.css">
+        <link rel="stylesheet" href="./assets/css/jogos/jogos.css">
+        <link rel="stylesheet" href="./assets/css/jogo.css">
+        <link rel="stylesheet" href="./assets/css/jogos/jogos__imagem.css">
+        <link rel="stylesheet" href="./assets/css/jogos/jogos__nome.css">
+        <link rel="stylesheet" href="./assets/css/jogos/jogos__personagem.css">
     </head>
 
     <body>
-        <header>
+        <header class="cabecalho">
             <img class="logo" src="./assets/img/logo.jfif" alt="Elden Ring">
-            <nav>
-                <ul class="menu">
-                    <li class="topicos"><a id="ativo" class="links--menu" href="#">Início</a></li> 
-                    <li class="topicos"><a class="links--menu" href="#">Lordes</a></li> 
-                    <li class="topicos"><a class="links--menu" href="#">Quem Somos</a></li> 
-                    <li class="topicos"><a class="links--menu" href="#">BloodScorpions</a></li>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link ativo" href="#">Início</a></li> 
+                    <li class="menu__item"><a class="menu__link" href="#">Lordes</a></li> 
+                    <li class="menu__item"><a class="menu__link" href="#">Outros Jogos</a></li> 
+                    <li class="menu__item"><a class="menu__link" href="#">BloodScorpions</a></li>
                 </ul>
             </nav>
         </header>
+
+        <section class="banner">
+            <img class="banner__imagem" src="./assets/img/banner.jpg" alt="Elden Ring">
+            <h2 class="banner__titulo">Conheça melhor os Lordes Prístinos</h2>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Lordes Prístinos e Seres Importantes</h2>
+            <p class="sobre__descricao">A Ordem Dourada foi destruída. Ao longo das Terras do Meio, semideuses segurando fragmentos do Elden Ring brigam e fazem guerra pelas ruínas de um reino perfeito, agora abandonado pela orientação dourada da Grande Vontade.</p>
+        </section>
+
+        <section class="lorde">
+            <div class="lordes">
+                <img class="lordes__imagem" src="./assets/img/godrick.JPG" alt="Godrick">
+                <div class="lordes__conteudo">
+                    <h4 class="lordes__titulo">Godrick, o Enxertado</h4>
+                    <p class="lordes__descricao">Lorde de Tempesvéu e Primeiro Lorde Prístino</p>
+                    <button class="lordes__botao">Ver Lore</button>
+                </div>
+            </div>
+            <div class="lordes">
+                <img class="lordes__imagem" src="./assets/img/morgott.jpg" alt="Morgott">
+                <div class="lordes__conteudo">
+                    <h4 class="lordes__titulo">Morgott, o Rei Agouro</h4>
+                    <p class="lordes__descricao">Lorde de Leyndell, capital real. Autoproclamado "Last of All Kings"</p>
+                    <button class="lordes__botao">Ver Lore</button>
+                </div>
+            </div>
+            <div class="lordes">
+                <img class="lordes__imagem" src="./assets/img/radahn.jpg" alt="Radahn">
+                <div class="lordes__conteudo">
+                    <h4 class="lordes__titulo">General Radahn</h4>
+                    <p class="lordes__descricao">O famoso Leão Vermelho e Flagelo das Estrelas</p>
+                    <button class="lordes__botao">Ver Lore</button>
+                </div>
+            </div>
+            <div class="lordes">
+                <img class="lordes__imagem" src="./assets/img/rennala.jpg" alt="Rennala">
+                <div class="lordes__conteudo">
+                    <h4 class="lordes__titulo">Rennala, Rainha da Lua Cheia</h4>
+                    <p class="lordes__descricao">Rainha da Realeza Cariana, governante da Academia de Raya Lucaria</p>
+                    <button class="lordes__botao">Ver Lore</button>
+                </div>
+            </div>
+            <div class="lordes">
+                <img class="lordes__imagem" src="./assets/img/rykard.png" alt="Rykard">
+                <div class="lordes__conteudo">
+                    <h4 class="lordes__titulo">Rykard, Lorde Blasfemo</h4>
+                    <p class="lordes__descricao">Lorde da Mansão Vulcânica no monte Gelmir</p>
+                    <button class="lordes__botao">Ver Lore</button>
+                </div>
+            </div>
+            <div class="lordes">
+                <img class="lordes__imagem" src="./assets/img/malenia.jpg" alt="Malenia">
+                <div class="lordes__conteudo">
+                    <h4 class="lordes__titulo">Malenia, BLADE OF MIQUELLA</h4>
+                    <p class="lordes__descricao">And I have never known defeat. A mais poderosa dos Empyreans</p>
+                    <button class="lordes__botao">Ver Lore</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="outros-jogos">
+            <h3 class="outros-jogos__titulos">Outros Jogos</h3>
+            <p class="outros-jogos__descricao">Um mundo fantástico e um desafio totalmente incomparável. Hidetaka Miyazaki nos proporciona experiências jamais vividas. Praise the Sun e apoveite demais jogos como Elden Ring:</p>
+            <div class="jogo">
+                <div class="jogos">
+                    <div class="jogos__imagem jogos__imagem--sekiro"></div>
+                    <span class="jogos__nome">Sekiro</span>
+                    <span class="jogos__personagem">Lobo</span>
+                </div>
+                <div class="jogos">
+                    <div class="jogos__imagem jogos__imagem--darksouls3"></div>
+                    <span class="jogos__nome">Dark Souls 3</span>
+                    <span class="jogos__personagem">Ashen One</span>
+                </div>
+                <div class="jogos">
+                    <div class="jogos__imagem jogos__imagem--bloodborne"></div>
+                    <span class="jogos__nome">Bloodborne</span>
+                    <span class="jogos__personagem">The Hunter</span>
+                </div>
+            </div>
+        </section>
+
     </body>
 </html>
 
 
+<!--colocar link nos botões "ver lore" para outra págiana contando a lore dos personagens-->
+<!--mudar fonte da página-->
 <!--Muitos utilizam o figma para basear o projeto antes de codar, tipo como se fossem montar o site sem código-->

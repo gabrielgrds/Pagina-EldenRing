@@ -1,0 +1,21 @@
+.jogos__imagem {
+    width: 300px;
+    background-size: cover;
+    height: 300px;
+    border-radius: 100%;
+    background-position: center;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.jogos__imagem--sekiro {
+    background-image: url('../../img/lobo.jpg');
+}
+
+.jogos__imagem--darksouls3 {
+    background-image: url('../../img/ashen_one.jpg');
+}
+
+.jogos__imagem--bloodborne {
+    background-image: url('../../img/bloodborne.jpg');
+}
