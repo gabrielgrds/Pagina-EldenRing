@@ -2,5 +2,23 @@
     background: #e5e5e5;
     display: flex;
     flex-wrap: wrap; /*quebra automaticamente os elementos de linha*/
-    padding: 5rem 0 0 5rem;
+}
+
+@media screen and (min-width: 0) {
+    .lorde {
+        justify-content: center;
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lorde {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lorde {
+        padding: 5rem 0 0 2rem;
+    }
 }

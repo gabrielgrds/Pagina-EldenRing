@@ -3,6 +3,26 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
-    margin-right: 4.5rem;
-    width: calc(27.55%);
+}
+
+@media screen and (min-width: 0) {
+    .lordes {
+        margin-right: 1rem;
+        width: calc(80%);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lordes {
+        margin-right: 2.5rem;
+        width: calc(27.55%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .lordes {
+        margin-right: 2rem;
+        margin-left: 1rem;
+        width: calc(27.55%);
+    }
 }
